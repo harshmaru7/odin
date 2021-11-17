@@ -1,0 +1,22 @@
+.parent{
+    background-color: pink;
+    font-weight:700;
+    font-family: sans-serif;
+}
+
+.son{
+    font-size: 30px;
+}
+
+.a{
+    background-color: white;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.b{
+    background-color: rgb(168, 245, 168);
+    font-size: 18px;
+    font-weight: bold;
+}

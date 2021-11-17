@@ -1,0 +1,156 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    background-color:#1F2937;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.logo{
+    font-size: 24px;
+    font:#F9FAF8;
+}
+ul{
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+}
+
+
+.upper{
+    display:flex;
+    flex-direction:row;
+    gap: 12px;
+    justify-content: space-evenly;
+    background-color:#1F2937;
+    color: white;
+    padding: 62px;
+}
+
+
+.para{
+    display:flex;
+    flex-direction:column;
+    gap: 12px;
+    padding: 24px;
+    width: 400px;   
+}
+
+.main-text{
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.sub-text{
+    font-size: 18px;
+    color: #e5e7eb;;
+}
+
+.title{
+    color:black;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-bottom: 48px;   
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 82px;
+
+
+}
+
+.box{
+  background-color: white;
+  color: rgb(255, 255, 255);
+  border: 12px solid#006aff;
+  height: 120px;
+  width: 100px;
+  border-radius: 12px;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    gap: 52px;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
+.quote{
+    background-color:#e5e7eb;
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 62px;
+    
+
+}
+.it{
+    width: 650px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.nam{
+    margin-left: 400px;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 24px;
+}
+.footer{
+    
+    bottom: 0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    background-color:#1F2937;
+    color:white;
+}
+.message{
+    display:flex;
+    flex-direction: row;
+    background-color:#3882F6;
+    border-radius: 20px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px auto;
+    /* gap: 100px;   */
+    width: 900px;
+    padding: 24px 82px;
+    height: 100px;
+}
+.t{
+    display:flex;
+    flex-direction: column; 
+    
+    width: 400px;
+}
+.callto{
+    font-size: 28px;
+    font-weight: bolder;
+    color: #e5e7eb;
+}
+.sign{
+    font-size: 24px;
+    color: #e5e7eb;;
+}
+button{
+    background-color:#3882F6;
+    color: white;
+    width: 100px;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-size: larger;
+}
