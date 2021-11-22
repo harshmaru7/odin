@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x = "harsh maru"
+        function nameit(from,text=nothingisprovided()){
+            console.log(
+                "Good morning from " + from + " to " + text 
+            )
+        }
+
+        function nothingisprovided(){
+            return "what ever man "
+        }
+    
+        nameit(undefined,"harsh")
+        
+        let a = prompt("Enter x")
+        let n = prompt("Enter the power ")
+        function calcPower(a,n){
+            return a**n
+        }
+
+        let answer = calcPower(a,n)
+        console.log(answer)
+        // function sayHi(){
+        //     console.log("whatever whatever whateve ")
+        //     alert( "Hello" );
+        // }
+        // alert(sayHi())
+
+        let sayHi = function() {
+            alert( "Hello is this is where vampires can be found !!! " );
+        };
+        sayHi();
+    
+        let h = (a,n) => a*n;
+        let c = h(a,n)
+        console.log("This is the answer !! "+ c +" ?????")  
+        
+        let age = 22 
+
+        let welcome = (age<18) ?
+        ()=> alert("wassup !"): ()=>alert("heyooo !!")
+
+        welcome();
+    </script>
+</body>
+</html>
